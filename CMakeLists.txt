@@ -73,8 +73,6 @@ ADD_LIBRARY(sf_lib
 TARGET_LINK_LIBRARIES(sf_lib
 	${MRPT_LIBS}
 	${OpenCV_LIBS}
-	${pangolin_lib_path}
-	${pangolin_intf_libs}
 	${Pangolin_LIBRARIES}
 )
 
