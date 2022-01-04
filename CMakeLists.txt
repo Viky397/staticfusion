@@ -75,6 +75,7 @@ TARGET_LINK_LIBRARIES(sf_lib
 	${OpenCV_LIBS}
 	${pangolin_lib_path}
 	${pangolin_intf_libs}
+	${Pangolin_LIBRARIES}
 )
 
 if(OpenNI2_FOUND)
